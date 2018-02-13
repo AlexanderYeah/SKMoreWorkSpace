@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>More And More</title>
+    <script src="{{static_url('js/jquery-1.12.2.js')}}" type="application/javascript"></script>
+
+    <script src="{{static_url('js/unslider.min.js')}}" type="application/javascript"></script>
+    <link rel="stylesheet" href="{{static_url('css/home.css')}}">
+
+
+
+</head>
+<body>
+
+
+ <div class="banner" id="b02">
+
+    <ul>
+
+        <li><img class="sliderimg" src="{{static_url('resource/banner_01.jpg')}}" alt="" width="100%" ></li>
+
+        <li><img class="sliderimg" src="{{static_url('resource/banner_02.jpg')}}" alt="" width="100%" ></li>
+
+        <li><img class="sliderimg" src="{{static_url('resource/banner_03.jpg')}}" alt="" width="100%" ></li>
+
+        <li><img class="sliderimg" src="{{static_url('resource/banner_04.jpg')}}" alt="" width="100%" ></li>
+
+        <li><img class="sliderimg" src="{{static_url('resource/banner_05.jpg')}}" alt="" width="100%" ></li>
+
+    </ul>
+
+</div>
+
+
+</body>
+<script type="application/javascript">
+
+
+
+$(document).ready(function(e) {
+
+    $('#b02').unslider();
+
+});
+
+
+</script>
+
+</html>
